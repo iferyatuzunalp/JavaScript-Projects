@@ -3,7 +3,6 @@ window.addEventListener('load', function() {
         document.querySelector('.floating-note').style.left = '20px';
     }, 800);
     
-    // Create more bubbles dynamically
     for (let i = 0; i < 5; i++) {
         let bubble = document.createElement('div');
         bubble.className = 'bubble';
